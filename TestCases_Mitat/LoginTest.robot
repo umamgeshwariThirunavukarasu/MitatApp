@@ -2,6 +2,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource   ../Resources/Loginkeywords.robot
+Resource    ../Resources/Addtripkeywords.robot
 
 *** Test Cases ***
 Login Test
@@ -14,3 +15,4 @@ Login Test
 Logout Test
     Verify Sucessful Logout
     Close All Browsers
+    Enter date
