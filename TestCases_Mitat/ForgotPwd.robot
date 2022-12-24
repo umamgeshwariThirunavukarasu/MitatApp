@@ -12,8 +12,7 @@ ForgotPassword
     Sleep    3s
     Verify the Otp sent
     Close All Browsers
-    
-    conflict
+
     
 
 
